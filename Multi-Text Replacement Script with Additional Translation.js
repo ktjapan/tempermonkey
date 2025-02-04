@@ -44,10 +44,6 @@
         { from: /전체 자원/g, to: '全体リソース' },
         { from: /이번 달 요금/g, to: '今月の料金' },
         { from: /부가세 별도/g, to: '消費税別途' },
-        { from: /사용/g, to: '使用' },
-        { from: /정지/g, to: '停止' },
-        { from: /발생/g, to: '発生' },
-        { from: /안정/g, to: '安定' },
         { from: /데이터부족/g, to: 'データ不足' },
         { from: /최근 알림/g, to: '最近の通知' },
         { from: /공지/g, to: 'お知らせ' },
@@ -60,7 +56,33 @@
         { from: /기업/g, to: '企業' },
         { from: /클린존/g, to: 'クリーンゾーン' },
         { from: /신청하기/g, to: '申請する' },
+        { from: /사용할 서비스를 신청합니다./g, to: '使用するサービスを申請します。' },
+        //server https://cloud.kt.com/console/g/serverlist
+        { from: /가상 서버를 관리합니다./g, to: '仮想サーバーを管理します。' },
+        { from: /생성시작/g, to: '作成開始' },
+        { from: /재시작/g, to: '再起動' },
+        { from: /강제정지/g, to: '強制停止' },
+        { from: /접속설정/g, to: '接続設定' },
+        { from: /모든 상태/g, to: 'すべての状態' },
+
+        //common
         { from: /취소/g, to: 'キャンセル' },
+        { from: /정지/g, to: '停止' },
+        { from: /사용/g, to: '使用' },
+        { from: /발생/g, to: '発生' },
+        { from: /안정/g, to: '安定' },
+        { from: /서버/g, to: 'サーバー' },
+        { from: /삭제/g, to: '削除' },
+        { from: /이름/g, to: '名前' },
+        { from: /상태/g, to: '状態' },
+        { from: /위치/g, to: '位置' },
+        { from: /운영체제/g, to: 'OS' },
+        { from: /사양/g, to: '仕様' },
+        { from: /사설IP/g, to: 'プライベートIP' },
+        { from: /추가 사설IP/g, to: '追加プライベートIP' },
+        { from: /생성일시/g, to: '作成日時' },
+
+
 
 
 
