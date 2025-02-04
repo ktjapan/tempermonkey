@@ -6,8 +6,8 @@
 // @author       Your Name
 // @match        *://*/*
 // @grant        none
-// @updateURL    https://tt-shop.jp/path/to/your-script.user.js
-// @downloadURL  https://your-server.com/path/to/your-script.user.js
+// @updateURL    https://raw.githubusercontent.com/ktjapan/tempermonkey/refs/heads/main/Multi-Text%20Replacement%20Script%20with%20Additional%20Translation.js
+// @downloadURL  https://raw.githubusercontent.com/ktjapan/tempermonkey/refs/heads/main/Multi-Text%20Replacement%20Script%20with%20Additional%20Translation.js
 // ==/UserScript==
 
 (function () {
