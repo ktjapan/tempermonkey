@@ -6,8 +6,8 @@
 // @author       Your Name
 // @match        *://*/*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/ktjapan/tempermonkey/refs/heads/main/Multi-Text%20Replacement%20Script%20with%20Additional%20Translation.js
-// @downloadURL  https://raw.githubusercontent.com/ktjapan/tempermonkey/refs/heads/main/Multi-Text%20Replacement%20Script%20with%20Additional%20Translation.js
+// @updateURL    https://raw.githubusercontent.com/ktjapan/tempermonkey/refs/heads/main/Multi-Text%20Replacement%20Script%20with%20Additional%20Translation.js?timestamp=1707072000
+// @downloadURL  https://raw.githubusercontent.com/ktjapan/tempermonkey/refs/heads/main/Multi-Text%20Replacement%20Script%20with%20Additional%20Translation.js?timestamp=1707072000
 // ==/UserScript==
 
 (function () {
