@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Multi-Text Replacement Script with Additional Translation
 // @namespace    http://tampermonkey.net/
-// @version      1.6
+// @version      1.7
 // @description  Replace multiple words and sentences dynamically on a webpage, including "를 클릭해주세요"
 // @author       Your Name
 // @match        *://*/*
