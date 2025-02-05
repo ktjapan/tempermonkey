@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Multi-Text Replacement Script with Additional Translation
 // @namespace    http://tampermonkey.net/
-// @version      1.7
+// @version      1.7.1
 // @description  Replace multiple words and sentences dynamically on a webpage, including "를 클릭해주세요"
 // @author       Your Name
 // @match        *://*/*
@@ -84,8 +84,11 @@
         { from: /생성할 서버에 그룹을 설정합니다./g, to: '作成するサーバーにグループを設定します。' },
         { from: /추가 데이터 볼륨을 설정합니다./g, to: '追加データボリュームを設定します。' },
         //common
-        { from: /원/g, to: 'ウォン' },
-        { from: /월/g, to: '月' },
+        { from: /추가 사설IP/g, to: '追加プライベートIP' },
+        { from: /운영체제/g, to: 'OS' },
+        { from: /사설IP/g, to: 'プライベートIP' },
+        { from: /생성일시/g, to: '作成日時' },
+        { from: /가이드/g, to: 'ガイド' },
         { from: /지정/g, to: '指定' },
         { from: /별도/g, to: '別途' },
         { from: /취소/g, to: 'キャンセル' },
@@ -98,15 +101,13 @@
         { from: /이름/g, to: '名前' },
         { from: /상태/g, to: '状態' },
         { from: /위치/g, to: '位置' },
-        { from: /운영체제/g, to: 'OS' },
         { from: /사양/g, to: '仕様' },
-        { from: /사설IP/g, to: 'プライベートIP' },
-        { from: /추가 사설IP/g, to: '追加プライベートIP' },
-        { from: /생성일시/g, to: '作成日時' },
         { from: /옵션/g, to: 'オプション' },
         { from: /그룹/g, to: 'グループ' },
         { from: /설정/g, to: '設定' },
-        { from: /가이드/g, to: 'ガイド' },
+        { from: /원/g, to: 'ウォン' },
+        { from: /월/g, to: '月' },
+        { from: /개/g, to: '個' },
     ];
 
     // 텍스트 변환 함수
