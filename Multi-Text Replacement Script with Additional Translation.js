@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Multi-Text Replacement Script with Additional Translation
 // @namespace    http://tampermonkey.net/
-// @version      1.7.1
+// @version      1.7.2
 // @description  Replace multiple words and sentences dynamically on a webpage, including "를 클릭해주세요"
 // @author       Your Name
 // @match        *://*/*
@@ -65,8 +65,11 @@
         { from: /접속설정/g, to: '接続設定' },
         { from: /모든 상태/g, to: 'すべての状態' },
         //서버 생성
+        { from: /가상 서버를 관리합니다./g, to: '仮想サーバーを管理します。' },
         { from: /서버 이름/g, to: 'サーバー名' },
         { from: /서버명과 같은 hostname을 사용합니다./g, to: 'サーバー名と同じホスト名を使用します。' },
+        { from: /서버명과 같은/g, to: 'サーバー名と同じ' },
+        { from: /을 사용합니다./g, to: 'を使用します。' },
         { from: /월요금제/g, to: '月額料金プラン' },
         { from: /시간요금제/g, to: '時間料金プラン' },
         { from: /1년 약정 요금제/g, to: '1年契約料金プラン' },
@@ -97,6 +100,8 @@
         { from: /발생/g, to: '発生' },
         { from: /안정/g, to: '安定' },
         { from: /서버/g, to: 'サーバー' },
+        { from: /생성/g, to: '作成' },
+        { from: /시작/g, to: '開始' },
         { from: /삭제/g, to: '削除' },
         { from: /이름/g, to: '名前' },
         { from: /상태/g, to: '状態' },
