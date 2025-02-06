@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Multi-Text Replacement Script with Additional Translation
 // @namespace    http://tampermonkey.net/
-// @version      20250206.1
+// @version      20250206.2
 // @description  Replace multiple words and sentences dynamically on a webpage, including "를 클릭해주세요"
 // @author       Your Name
 // @match        *://*/*
@@ -59,13 +59,13 @@
         { from: /사용할 서비스를 신청합니다./g, to: '使用するサービスを申請します。' },
         //server https://cloud.kt.com/console/g/serverlist
         { from: /가상 서버를 관리합니다./g, to: '仮想サーバーを管理します。' },
+        { from: /를 관리합니다./g, to: 'を管理します。' },
         { from: /생성시작/g, to: '作成開始' },
         { from: /재시작/g, to: '再起動' },
         { from: /강제정지/g, to: '強制停止' },
         { from: /접속설정/g, to: '接続設定' },
         { from: /모든 상태/g, to: 'すべての状態' },
         //서버 생성
-        { from: /가상 서버를 관리합니다./g, to: '仮想サーバーを管理します。' },
         { from: /서버 이름/g, to: 'サーバー名' },
         { from: /서버명과 같은 hostname을 사용합니다./g, to: 'サーバー名と同じホスト名を使用します。' },
         { from: /서버명과 같은/g, to: 'サーバー名と同じ' },
@@ -79,6 +79,7 @@
         { from: /고급 설정/g, to: '詳細設定' },
         { from: /만들 서버 수/g, to: '作成するサーバー数' },
         { from: /분산배치/g, to: '分散配置' },
+        { from: /생성하기/g, to: '作成' },
         { from: /VM이 생성된 이후 OS에서 자동으로 실행할 스크립트를 설정할 수 있습니다./g, to: 'VMが作成された後、OSで自動実行するスクリプトを設定できます。' },
         { from: /VM생성시 비밀번호 접속방식이 아닌 암호화된 SSH Keypair 파일로 접속합니다./g, to: 'VM作成時、パスワード接続方式ではなく、暗号化されたSSH Keypairファイルで接続します。' },
         { from: /VM 생성시 지정한 내부IP로 생성합니다./g, to: 'VM作成時に指定した内部IPで作成します。' },
