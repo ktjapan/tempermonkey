@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Multi-Text Replacement Script with Additional Translation
 // @namespace    http://tampermonkey.net/
-// @version      20250206.3
+// @version      20250206.4
 // @description  Replace multiple words and sentences dynamically on a webpage, including "를 클릭해주세요"
 // @author       Your Name
 // @match        *://*/*
@@ -19,8 +19,8 @@
         { from: /로그인/g, to: 'ログイン' },
         { from: /kt cloud 에 오신 것을 환영합니다/g, to: 'kt cloudにようこそ' },
         { from: /아이디 저장/g, to: 'ID保存' },
-        { from: /안전한 ログイン을 위해 2차\(OTP\) 인증 기능 사용을 적극 권고 드립니다/g, to: '安全なログインのために2段階認証機能の使用を積極的に推奨します' },
-        { from: /2차\(OTP\) 인증 설정 방법 안내는/g, to: '2段階認証設定方法の案内は' },
+        { from: /안전한 ログイン을 위해 2차\(OTP\) 인증 기능 사용을 적극 권고 드립니다/g, to: '安全なログインのために、二段階認証を有効にしてください。' },
+        { from: /2차\(OTP\) 인증 설정 방법 안내는/g, to: '二段階認証設定方法の案内は' },
         { from: /여기/g, to: 'こちら' },
         { from: /를 클릭해주세요/g, to: 'をクリックしてください' },
         { from: /회원가입/g, to: '会員登録' },
